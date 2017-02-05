@@ -1,0 +1,48 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+html, body {
+  font-size: 100%;
+  line-height: 1;
+  background-color: #fff;
+}
+body {
+  font-family: "HaufeMerriweather", Georgia, "Times New Roman", Times, serif;
+}
+header, footer, article, section, code {
+  display: block;
+}
+header, footer {
+  padding-top: 20px;
+}
+footer {
+  border-top: 1px solid #0a9df2;
+}
+nav ul {
+  list-style: none;
+}
+h1, h2 {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  font-family: "Dax", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #0a9df2;
+  border-bottom: 1px solid #0a9df2;
+}
+p {
+  font-size: 18px;
+  line-height: 1.42857;
+}
+code {
+  padding: 10px;
+  background-color: #EEE;
+  border-radius: 10px;
+}
+.center {
+  margin: 20px auto;
+  width: 75%;
+}

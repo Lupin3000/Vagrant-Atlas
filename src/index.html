@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vagrant-Atlas</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header class="center">
+    <h1>Vagrant-Atlas</h1>
+  </header>
+  <nav class="center">
+    <ul>
+      <li>
+        <a href="./vagrant/templates/" target="_self" title="Vagrantfile Templates">Vagrantfile Templates</a>
+      </li>
+      <li>
+        <a href="./vagrant/boxes/" target="_self" title="Vagrant Boxes">Vagrant Boxes</a>
+      </li>
+      <li>
+        <a href="./vagrant/" target="_self" title="Vagrant JSON">Vagrant JSON</a>
+      </li>
+    </ul>
+  </nav>
+  <h2 class="center">Example</h2>
+  <article class="center">
+    <section>
+      <p>Create environment from template:</p>
+      <code>
+        # create new project<br>
+        $ mkdir ~/CentOS7 &amp;&amp; cd ~/CentOS7<br>
+        <br>
+        # download Vagrantfile template via curl<br>
+        $ curl -o Vagrantfile http://atlas.com/vagrant/templates/Vagrantfile_CentOS7<br>
+        <br>
+        # edit Vagrantfile<br>
+        $ vim Vagrantfile<br>
+        <br>
+        # start environment<br>
+        $ vagrant up<br>
+        <br>
+        ... do your great work ...<br>
+        <br>
+        # destroy environment<br>
+        $ vagrant destroy -f
+      </code>
+    </section>
+  </article>
+  <h2 class="center">Additional Information</h2>
+  <article class="center">
+    <section>
+      <p>Please read the <a href="https://www.vagrantup.com/docs/getting-started/" target="_blank" title="Vagrant documentation">Vagrant</a> documentation
+        and have an look for available Vagrant <a href="https://github.com/mitchellh/vagrant/wiki/Available-Vagrant-Plugins" target="_blank" title="Vagrant PlugIns">PlugIns</a>!</p>
+    </section>
+  </article>
+  <footer class="center">
+    Created by <a href="http://softwaretester.info" target="_blank" title="Softwaretester">softwaretester.info</a>
+  </footer>
+</body>
+</html>
