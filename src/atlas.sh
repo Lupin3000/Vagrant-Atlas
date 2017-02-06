@@ -65,7 +65,7 @@ function generate_repo_file()
 
   # create json content
   L_STRING+="{\n"
-  L_STRING+="\t\"name\": \"${G_BOX_OWNER}/${L_BOX_NAME}\",\n"
+  L_STRING+="\t\"name\": \"${G_BOX_OWNER}/$(basename "${G_REPO_PATH}")\",\n"
   L_STRING+="\t\"versions\": [{\n"
   for i in "${L_CURRENT[@]}"; do
     # define function vars
